@@ -1,0 +1,16 @@
+﻿  main.cpp
+\\GMRDC1\Folder Redirection\Edan.Saedi\Documents\Visual Studio 2019\Projects\SmartPointers\SmartPointers\main.cpp(158,1): error C2280: 'std::unique_ptr<Vec3,std::default_delete<_Ty>>::unique_ptr(const std::unique_ptr<_Ty,std::default_delete<_Ty>> &)': attempting to reference a deleted function
+\\GMRDC1\Folder Redirection\Edan.Saedi\Documents\Visual Studio 2019\Projects\SmartPointers\SmartPointers\main.cpp(158,1): error C2280:         with
+\\GMRDC1\Folder Redirection\Edan.Saedi\Documents\Visual Studio 2019\Projects\SmartPointers\SmartPointers\main.cpp(158,1): error C2280:         [
+\\GMRDC1\Folder Redirection\Edan.Saedi\Documents\Visual Studio 2019\Projects\SmartPointers\SmartPointers\main.cpp(158,1): error C2280:             _Ty=Vec3
+\\GMRDC1\Folder Redirection\Edan.Saedi\Documents\Visual Studio 2019\Projects\SmartPointers\SmartPointers\main.cpp(158,1): error C2280:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(1914): message : see declaration of 'std::unique_ptr<Vec3,std::default_delete<_Ty>>::unique_ptr'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(1914): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(1914): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(1914): message :             _Ty=Vec3
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(1914): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(1914,5): message : 'std::unique_ptr<Vec3,std::default_delete<_Ty>>::unique_ptr(const std::unique_ptr<_Ty,std::default_delete<_Ty>> &)': function was explicitly deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(1914,5): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(1914,5): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(1914,5): message :             _Ty=Vec3
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(1914,5): message :         ]
